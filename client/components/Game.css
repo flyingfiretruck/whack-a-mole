@@ -1,0 +1,108 @@
+
+
+.hammer {
+  position: absolute;
+}
+
+.cursor {
+  position: fixed;
+  width: 0px;
+  height: 0px;
+  z-index: 2;
+
+}
+
+.container {
+  display: block;
+  z-index: 0;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  cursor: url('sledgehammer.png'), auto;
+
+}
+
+.background {
+  /* position: relative;
+  display: block; */
+  max-width: 100%;
+  z-index: 0;
+  position: relative;
+  margin-bottom: -100%;
+}
+.start_background {
+  cursor: pointer;
+  max-width: 100%;
+  z-index: 0;
+  position: relative;
+
+}
+
+
+#mole {
+  width: 50%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+  cursor: url('sledgehammer_hit.png'), auto;
+}
+
+#dead {
+  width: 50%;
+  height: auto;
+  z-index: 3;
+  position: relative;
+  cursor: url('sledgehammer.png'), auto;
+}
+
+.mole_line {
+  display: flex;
+  justify-content: center;
+}
+
+.mole-container {
+  max-width: 100%;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 8%;
+  margin-bottom: 17%;
+}
+
+#mole-containers {
+  max-width: 100%;
+}
+
+#hammer {
+  position: relative;
+  z-index: 2;
+}
+
+#game_screen {
+  z-index: 0;
+}
+
+#start-button {
+  cursor: pointer;
+}
+
+#top-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* .cursor {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+} */
+
+/* * {
+  cursor: url('sledgehammer.png'), auto;
+} */
